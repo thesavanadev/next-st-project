@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7519d10b-86e2-41dc-8045-eddb9bcc1ef2/deploy-status)](https://app.netlify.com/sites/next-st-project/deploys)
-
 # [Starter Template] Project
 
 Welcome to the private repository for [Starter Template] project. This repository houses the codebase for the dynamic
