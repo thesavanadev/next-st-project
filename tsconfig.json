@@ -14,7 +14,6 @@
 			"@/*": ["./src/*"],
 			"@/app/*": ["./src/app/*"],
 			"@/components/*": ["./src/components/*"],
-			"@/hooks/*": ["./src/lib/hooks/*"],
 			"@/lib/*": ["./src/lib/*"]
 		},
 		"plugins": [
