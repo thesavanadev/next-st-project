@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Comfortaa as FontHeader, Montserrat as FontBody } from "next/font/google";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
 
