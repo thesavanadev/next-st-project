@@ -14,7 +14,7 @@ import "@/styles/globals.css";
 
 export const metadata: Metadata = {
 	title: "NextJS Starter Template",
-	description: "Starter template for NextJS projects using Tailwind CSS.",
+	description: "Template to get started with Next.js, Tailwind CSS and shadcn/ui.",
 };
 
 const fontHeader = FontHeader({ subsets: ["latin"], variable: "--font-header" });
@@ -27,7 +27,7 @@ const RootLayout = async ({ children }: Readonly<{ children: ReactNode }>) => {
 				<link href="/favicon.svg" rel="icon" type="image/svg+xml" />
 			</head>
 
-			<body className={cn("font-body flex h-screen flex-col")}>
+			<body className="font-body flex h-screen flex-col">
 				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
 					<header>
 						<Header />
