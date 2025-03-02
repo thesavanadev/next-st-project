@@ -28,6 +28,7 @@
 		"postcss": "^8.5.3",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"sharp": "^0.33.5",
 		"tailwind-merge": "^3.0.2",
 		"tailwindcss": "^4.0.9",
 		"tailwindcss-animate": "^1.0.7",
@@ -45,5 +46,14 @@
 		"prettier": "^3.5.2",
 		"prettier-plugin-tailwindcss": "^0.6.11",
 		"typescript": "^5.8.2"
+	},
+	"engines": {
+		"node": "^18.20.2 || >=20.9.0",
+		"pnpm": "^9"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"sharp"
+		]
 	}
 }
