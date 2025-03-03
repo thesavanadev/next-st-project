@@ -13,7 +13,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-	title: "NextJS Starter Template",
+	title: { template: "%s | NextJS Starter Template", default: "NextJS Starter Template" },
 	description: "Template to get started with Next.js, Tailwind CSS and shadcn/ui.",
 };
 
